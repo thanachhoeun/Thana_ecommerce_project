@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+}
+#nav-bar{
+    background-color: rgb(114, 174, 224);
+}
+.nav-left{
+    width: 100px;
+}
+.nav-center,ul,li{
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    margin: 10px;
+    display: flex;
+    color: white;
+}
+.nav-right{
+    display: flex;
+    justify-content:flex-end;
+}
+button{
+    align-items: center;
+    display: flex;
+}
