@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller</title>
+    <link rel="stylesheet" href="../seller/css/seller.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <div class="nav-center">
+            <ul>
+                <li>Product</li>
+                <li>Seller</li>
+                <li>Customer</li>
+            </ul>
+        </div>
+    </div>
+    <div class="head">
+        <h1>Create Product</h1>
+    </div>
+    <div class="container">
+        <div class="form-add">
+         <form>
+            <label>Name:</label>
+            <input type="text" id="product-name" placeholder="ProductName" required>
+
+            <label>Description:</label>
+            <input type="text" id="description" placeholder="description" required>
+
+            <label>Price:</label>
+            <input type="text" id="price" placeholder="price" required>
+
+            <label>Currency:</label>
+            <input type="text" id="currency" placeholder="currency" required>
+
+            <label>Image:</label>
+            <input type="url" id="image" placeholder="images" required>
+            
+            <button>Add +</button>
+         </form>
+         <a href="../details/detail.html">ViewCustomer</a>
+        </div>
+        <div class="table-data"></div>
+     </div>
+     <h1 id="result"></h1>
+    <script src="../seller/Js/seller.js"></script>
+</body>
+</html>

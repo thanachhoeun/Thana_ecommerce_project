@@ -1,0 +1,83 @@
+
+#nav-bar{
+    background-color: pink;
+}
+.nav-center,ul,li{
+    display: flex;
+    list-style: none; 
+    gap: 15px;
+    color: white;
+    padding: 5px;
+}
+li{
+    background-color: black;
+}
+.head{
+    margin-left: 100px;
+}
+input[type=text]{
+    width: 90%;
+    padding: 8px;
+}
+input[type=url]{
+    width: 90%;
+    padding: 8px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+.form-add {
+    flex: 1;
+    padding: 10px;
+    background-color: paleturquoise;
+}
+.table-data {
+    flex: 2;
+    padding: 10px;
+    border-left: 1px dotted #ccc;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+tr,td, th {
+    border: 1px solid rgb(145, 144, 144);
+    padding: 10px;
+}
+th {
+    background: rgb(235, 186, 96);
+}
+form {
+   margin-bottom: 10px;
+}
+a {
+    background: #000;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    margin-top: 15px;
+    width: 20%;
+}
+.delete{
+    width: 20%;
+    margin-left: 50px;
+}
+.update{
+    width: 50%;
+    margin-left: 10px;
+} 

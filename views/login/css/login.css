@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#nav-bar{
+    background-color: pink;
+    justify-content: center;
+}
+.nav-center,ul,li{
+    display: flex;
+    list-style: none; 
+    gap: 15px;
+  
+    padding: 5px;
+}
+a{
+    background-color: black;
+    padding: 10px;
+    color:white;
+}
+.container{
+   background-color: paleturquoise;
+   justify-content: center;
+   padding: 50px;
+}
+.contain-form-1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contain-form-2{
+    justify-content: center;
+    margin-left: 390px;
+}
+.form-first{
+    justify-content: center;
+    margin-top: 20px;
+}
+input[type=text]{
+    padding: 10px;
+    width: 100%;
+}
+input[type=password]{
+    padding: 10px;
+    width: 50%;
+}
+input[type=email]{
+    padding: 10px;
+    width: 50%;
+}
+.group-img{
+    display: flex;
+    gap: 50px;
+}
+.group1{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+button{
+    margin-top: 30px;
+    padding: 5px;
+    width: 90%;
+    margin-left: 100px;
+}

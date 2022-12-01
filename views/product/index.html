@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../product/css/product.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <div class="nav-center">
+            <ul>
+                <li>
+                    <a href="">Product</a>
+                    <a href="">Seller</a>
+                    <a href="">Costomer</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="head">
+        <h1>Create Product</h1>
+    </div>
+    <div>
+        <div class="contain">
+            <div class="name">
+                <label>Name:</label><br>
+                <input type="text" id ="product-name"placeholder="is this filled in? is it too long or too short?">
+            </div>
+            <div class="name">
+                <label>Description:</label><br>
+                <input type="text" id="description" placeholder="is this filled in?">
+            </div>
+            <div class="name">
+                <label>Price:</label><br>
+                <input type="number" id="price" placeholder="is this a valid number? ">
+            </div>
+            <div class="name">
+                <label>Currency:</label><br>
+                <input type="text" id="currency" placeholder="is this one of the currencies we support?">
+            </div>
+            <div class="name">
+                <label>Image:</label><br>
+                <input type="file" id="image" placeholder="is this a URL">
+            </div>
+            <div class="name">
+                <button>save</button>
+            </div>
+            <div class="table-data"></div>
+             <h1 id="result"></h1>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+    <script src="../product/Js/main.js"></script>
+</body>
+</html>

@@ -4,6 +4,7 @@ body{
     padding: 0px;
 }
 #nav-bar{
+    display: flex;
     background-color: pink;
     justify-content: center;
 }
@@ -12,8 +13,21 @@ body{
     justify-content: center;
     list-style: none; 
     gap: 15px;
-    color: white;
+    color: black;
     padding: 5px;
+}
+.link{
+    margin-left: 500px;
+    display: flex;
+    gap: 10px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.but{
+    margin-right:50px;
 }
 .research{
     background-color: rgb(54, 60, 243);
@@ -32,14 +46,15 @@ input[type=text]{
 .container{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
     /* background-image: url(../imge/flow.png); */
 }
 .one{
+
     padding: 30px;
     background-color:white;
-    margin: 20px 80px 10px 10px;
+    margin: 30px 60px 20px 10px;
     justify-content: space-evenly;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
@@ -50,8 +65,15 @@ input[type=text]{
 .btn{
     border-radius: 3px;
     border: 1px solid black;
+    padding: 3px;
+   margin-left: 100px;
 }
 img{
-    height: 150px;
-    width: 120px;
+    height: 180px;
+    width: 190px;
+}
+.text{
+    margin-top: 30px;
+    background-color: rgb(235, 187, 187);
+    padding: 30px;
 }

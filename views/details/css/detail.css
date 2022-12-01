@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#nav-bar{
+    background-color: pink;
+    justify-content: center;
+}
+.nav-center,ul,li,a{
+    display: flex;
+    list-style: none; 
+    gap: 15px;
+    color:black;
+    padding: 5px;
+    color: white;
+}
+a{
+    background-color: black;
+}
+.research{
+    background-color: rgb(54, 60, 243);
+    border: none;
+    width: 3%;
+}
+.search{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+input[type=text]{
+    width: 40%;
+    padding: 8px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    flex-basis: 20%;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 7px;
+}
+.mt-5 {
+    margin-top: 50px;
+    justify-content: center;
+}
+.title {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.card-body {
+    padding: 80px;
+}
+.qty {
+    background: rgb(255, 253, 253);
+    color: #fff;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.price {
+    background: #b91cc1;
+    color: #fff;
+    width: 50px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#made{
+    width: 100%;
+    height: 200%;
+}
