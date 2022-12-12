@@ -42,7 +42,7 @@ input[type=text]{
 
 .container {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
     gap: 10px;
@@ -75,11 +75,12 @@ input[type=text]{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    background-color: pink;
 }
 .price {
-    background: #b91cc1;
+    background: #f090f5;
     color: #fff;
-    width: 50px;
+    width: 20px;
     height: 10px;
     padding: 10px;
     border-radius: 6px;

@@ -27,6 +27,20 @@ function createNewRecord(name, price, currency, description, image, edit, remove
     let create = document.createElement('img');
     create.className = 'update'
     create.src = '../../../imge/update.png';
+
+// ====================================Edit===========================================
+    create.addEventListener('click', (e)=>{
+        let index = e.target.parentElement.parentElement.dataset.index;
+        document.querySelector('#product-name').value = name;
+        document.querySelector('#description').value = description;
+        document.querySelector('#currency').value = currency;
+        document.querySelector('#image').value = image;
+        document.querySelector('#price').value = price;
+
+        productList.splice(index, 1);
+        displayProduct();
+    })
+
     
     let  trush = document.createElement("img");
     trush.className = 'delete';
@@ -35,7 +49,7 @@ function createNewRecord(name, price, currency, description, image, edit, remove
     tdSix.appendChild(create);
     tdSeven.appendChild(trush);
 
-//    ============= delete=============
+//    ========================== Delete ============================
     trush.addEventListener('click', (e)=>{
         e.preventDefault();
         let index = e.target.parentElement.parentElement.dataset.index;
@@ -55,6 +69,21 @@ function createNewRecord(name, price, currency, description, image, edit, remove
         }
         window.location.reload();
     })
+// ============================Search============================
+    // function btnSearch() {
+    //     let text = research.value.toLowerCase();
+    //     let tasks = document.querySelectorAll(".one");
+    //     for (let task of tasks) {
+    //         let taskTitle = task.children[1].textContent.toLowerCase();
+    //         if (taskTitle.indexOf(text) === -1) {
+    //             task.style.display = "none";
+    //         } else {
+    //             task.style.display = "block";
+    //         }
+    //     }
+    // }
+    // let research = document.querySelector(".research");
+    // research.addEventListener("keyup", btnSearch);
 
     tr.appendChild(tdOne);
     tr.appendChild(tdTwo);

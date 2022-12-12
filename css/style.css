@@ -48,7 +48,6 @@ input[type=text]{
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-    /* background-image: url(../imge/flow.png); */
 }
 .one{
 
@@ -69,8 +68,8 @@ input[type=text]{
    margin-left: 100px;
 }
 img{
-    height: 180px;
-    width: 190px;
+    height: 170px;
+    width: 180px;
 }
 .text{
     margin-top: 30px;
