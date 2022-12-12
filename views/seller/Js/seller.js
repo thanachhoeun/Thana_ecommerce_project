@@ -40,7 +40,7 @@ function createNewRecord(name, price, currency, description, image, edit, remove
         productList.splice(index, 1);
         displayProduct();
     })
-
+    
     
     let  trush = document.createElement("img");
     trush.className = 'delete';
